@@ -21,7 +21,7 @@ string[] MassiveNew(string[] MassiveInput) //massive with string elements which 
 
     for (int i = 0; i < MassiveInput.Length; i++)
     {
-        if (MassiveInput[i].Length < 3)
+        if (MassiveInput[i].Length <= 3)
         {
             LengthMassiveOut++;
         }
@@ -32,7 +32,7 @@ string[] MassiveNew(string[] MassiveInput) //massive with string elements which 
 
     for (int i = 0; i < MassiveInput.Length; i++)
     {
-        if (MassiveInput[i].Length < 3)
+        if (MassiveInput[i].Length <= 3)
         {
             MassiveOutput[j] = MassiveInput[i];
             j++;
