@@ -8,7 +8,7 @@ void PrintArray(string[] inputArray)
     {
         if (i < inputArray.Length && i != inputArray.Length - 1)
         {
-            Console.Write($"{inputArray[i]} ,");
+            Console.Write($"{inputArray[i]}, ");
         }
         else Console.Write($"{inputArray[i]}");
         i++;
